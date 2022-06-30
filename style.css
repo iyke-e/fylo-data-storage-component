@@ -88,7 +88,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    flex-wrap: wrap;
 }
 
 .top-text span {
@@ -176,7 +175,7 @@ body {
     }
     .top-text .gb {
         position: absolute;
-        transform: translateY(90px);
+        transform: translateY(160%);
         border-radius: 10px;
     }
     .gb::before {
