@@ -157,8 +157,10 @@ body {
     body {
         background-image: url(images/bg-mobile.png);
         background-size: cover;
+        min-height: 100%;
     }
     .main {
+        padding: 30px;
         flex-direction: column;
         align-items: flex-start;
     }
@@ -174,7 +176,7 @@ body {
     }
     .top-text .gb {
         position: absolute;
-        transform: translateY(170%);
+        transform: translateY(90px);
         border-radius: 10px;
     }
     .gb::before {
